@@ -26,7 +26,7 @@ push:
          username: $DOCKER_USERNAME
          password: $DOCKER_PASSWORD
          tag: latest
-         repository: $DOCKERNAME/wercker-example
+         repository: $DOCKER_USERNAME/wercker-example
          registry: https:/index.docker.io/v2
          ports: "5000"
          cmd: "/pipeline/source/wercker-example"
